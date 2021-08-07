@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.dib{
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2017/11/13/07/14/cats-eyes-2944820_960_720.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.a_h{
+    background-color: transparent;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.a_l{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 20px;
+    padding: 5px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.logo__container{
+    height: 40vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.a_container{
+    margin-left: 30px;
+    background-color: transparent;
+    height: 60vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.a_l:hover{
+    background-color: black;
+    color: crimson;
+}
+
+@media screen and (max-width: 960px) {
+
+.a_h{
+    font-size: 1.4rem;
+
+}
+}

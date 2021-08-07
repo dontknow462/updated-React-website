@@ -1,0 +1,48 @@
+.contact_container{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/21/59/tree-736877_960_720.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact_container h1{
+    color:#fff
+}
+/* .contact_logos .a_l{
+    font-size: 4rem;
+    margin-top: 40px;
+} */
+.con_ic{
+    font-size: 5rem;
+    background-color:crimson ;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+.con_ic:hover{
+    background-color:white ;
+    color: crimson;
+}
+.contact_ph{
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-left: 50vh;
+}
+
+
+@media screen and (max-width: 960px) {
+.con_ic{
+    font-size: 3.2rem;
+    background-color:crimson ;
+    border-radius: 50%;
+    padding: 5px;
+}
+.a_l{
+    background-color:transparent ;
+}
+.con_ic:hover{
+    background-color:white ;
+    color: crimson;
+}
+}

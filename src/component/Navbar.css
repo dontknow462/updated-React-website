@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+}
+.logo{
+    font-family:"Pacifico",sans-serif;
+    font-size: 2.4rem;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.logo:hover{
+    color: red;
+}
+.linkz_logo{
+    text-decoration: none;
+}
+.navbar_container{
+    background-color: black;
+    height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+}
+.menu-icon{
+    display: none;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 80vh;
+}
+
+.nav_link{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.nav_link:hover{
+    color: red;
+}
+.bar{
+    color:white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.bar:hover{
+    color: crimson;
+}
+@media screen and (max-width: 960px) {
+.navbar_container{
+    position: relative;
+}
+    
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: -22;
+    overflow: hidden
+}
+.nav_links.active{
+background:  #1c2237;
+left: 0;
+opacity: 1;
+transition: all 0.6s ease;
+z-index: 222;
+
+}
+.nav_link{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+}
+.menu-icon{
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    
+
+}
+
+}
